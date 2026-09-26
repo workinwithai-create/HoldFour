@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HoldFour — live hold desk</title>
+  <meta name="description" content="Four live-instrument bars of hold so an unfinished section finally has room instead of collapsing into the next loop." />
+  <meta name="theme-color" content="#0f100f" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>HoldFour</h1>
+  <p class="lead">Four live bars of hold so a section that already has a vocal and a kit finally has room to breathe. Not a filter open. Not a fade. Not another loop of the same four bars. Session players write a hold — pedal, pad, half-time, kit thin, bass sit — then the next section hits with air.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Hold</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · section 1–4 · hold 5–8</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Loop</button>
+  <button id="playB">B · Full pass</button>
+  <button id="play8">8 · Hold only</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
